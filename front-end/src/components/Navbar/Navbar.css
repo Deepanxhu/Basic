@@ -32,6 +32,10 @@ a.logo .red{
     display: none;
 }
 
+.mobile-menu-container{
+display: none;
+}
+
 /* Tablet */
 @media (max-width: 1040px){
     nav{
@@ -71,7 +75,6 @@ a.logo .red{
     .mobile-menu-container.active{
         transform: translateY(0);
     }
-
 
     .mobile-menu-container .menu-items{
         list-style: none;
